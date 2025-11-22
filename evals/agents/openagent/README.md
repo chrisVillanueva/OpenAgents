@@ -1,6 +1,6 @@
 # OpenAgent Evaluation Suite
 
-Evaluation framework for testing OpenAgent compliance with rules defined in `.opencode/agent/openagent.md`.
+Evaluation framework for testing OpenAgent compliance with rules defined in `.agents/agent/openagent.md`.
 
 ---
 
@@ -19,7 +19,7 @@ Validate that OpenAgent follows its own critical rules:
 ## Directory Structure
 
 ```
-evals/opencode/openagent/
+evals/agents/openagent/
 ├── README.md              # This file
 ├── config/
 │   └── config.yaml        # OpenAgent eval configuration
@@ -41,7 +41,7 @@ evals/opencode/openagent/
 
 ### 1. Framework Foundation
 Uses shared framework from `evals/framework/`:
-- `SessionReader` - Reads OpenCode session data from `~/.local/share/opencode/`
+- `SessionReader` - Reads OpenCode session data from `~/.local/share/agents/`
 - `TimelineBuilder` - Builds chronological event timeline
 - `EvaluatorRunner` - Runs evaluators and aggregates results
 
@@ -111,7 +111,7 @@ npm install
 npm run build
 
 # Run evaluations on a real session
-cd ../opencode/openagent
+cd ../agents/openagent
 node ../../framework/test-evaluators.js
 ```
 
@@ -199,7 +199,7 @@ See `config/config.yaml`:
 
 ```yaml
 agent: openagent
-agent_path: ../../../.opencode/agent/openagent.md
+agent_path: ../../../.agents/agent/openagent.md
 test_cases_path: ./test-cases
 sessions_path: ./sessions
 evaluators:
@@ -286,6 +286,6 @@ Results stored in `../../results/YYYY-MM-DD/openagent/`
 
 - **OpenAgent Rules:** [docs/OPENAGENT_RULES.md](docs/OPENAGENT_RULES.md)
 - **Test Specs:** [docs/TEST_SPEC.md](docs/TEST_SPEC.md)
-- **OpenAgent Definition:** [.opencode/agent/openagent.md](../../../.opencode/agent/openagent.md)
+- **OpenAgent Definition:** [.agents/agent/openagent.md](../../../.agents/agent/openagent.md)
 - **Framework README:** [../../framework/README.md](../../framework/README.md)
 - **Evaluation Results:** [../../results/](../../results/)

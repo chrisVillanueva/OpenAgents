@@ -47,8 +47,8 @@ evals/
 │   ├── README.md                # Framework documentation
 │   └── package.json
 │
-├── opencode/openagent/          # OpenAgent-specific tests
-│   ├── sdk-tests/               # YAML test cases
+├── agents/openagent/          # OpenAgent-specific tests
+│   ├── tests/               # YAML test cases
 │   │   ├── developer/           # Developer workflow tests
 │   │   ├── business/            # Business analysis tests
 │   │   ├── creative/            # Content creation tests
@@ -91,8 +91,8 @@ evals/
 |----------|---------|----------|
 | **[SDK_EVAL_README.md](framework/SDK_EVAL_README.md)** | Complete SDK testing guide | All users |
 | **[docs/test-design-guide.md](framework/docs/test-design-guide.md)** | Test design philosophy | Test authors |
-| **[openagent/docs/OPENAGENT_RULES.md](opencode/openagent/docs/OPENAGENT_RULES.md)** | Rules reference | Test authors |
-| **[openagent/docs/TEST_SCENARIOS.md](opencode/openagent/docs/TEST_SCENARIOS.md)** | Test scenario catalog | Test authors |
+| **[openagent/docs/OPENAGENT_RULES.md](agents/openagent/docs/OPENAGENT_RULES.md)** | Rules reference | Test authors |
+| **[openagent/docs/TEST_SCENARIOS.md](agents/openagent/docs/TEST_SCENARIOS.md)** | Test scenario catalog | Test authors |
 
 ## Usage Examples
 

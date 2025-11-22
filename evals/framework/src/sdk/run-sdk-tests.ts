@@ -103,7 +103,7 @@ async function main() {
   console.log('🚀 OpenCode SDK Test Runner\n');
   
   // Find test files
-  const testDir = join(__dirname, '../../..', 'opencode/openagent/sdk-tests');
+  const testDir = join(__dirname, '../../..', 'agents/openagent/tests');
   const pattern = args.pattern || '**/*.yaml';
   const testFiles = glob.sync(pattern, { cwd: testDir, absolute: true });
   

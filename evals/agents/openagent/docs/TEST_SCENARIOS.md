@@ -27,8 +27,8 @@ Testing OpenAgent across diverse user types and workflows to validate it behaves
 **User:** "Add a login feature with tests"
 
 **Expected Behavior:**
-- ✅ Load `.opencode/context/core/standards/code.md`
-- ✅ Load `.opencode/context/core/standards/tests.md`
+- ✅ Load `.agents/context/core/standards/code.md`
+- ✅ Load `.agents/context/core/standards/tests.md`
 - ✅ Request approval before creating files
 - ✅ 4+ files → Delegate to task-manager
 - ✅ Create code + tests together
@@ -45,7 +45,7 @@ Testing OpenAgent across diverse user types and workflows to validate it behaves
 
 **Expected Behavior:**
 - ✅ Read user.ts first
-- ✅ Load `.opencode/context/core/standards/code.md`
+- ✅ Load `.agents/context/core/standards/code.md`
 - ✅ Show proposed changes
 - ✅ Request approval before editing
 - ✅ Use Edit tool (not bash sed)
@@ -78,7 +78,7 @@ Testing OpenAgent across diverse user types and workflows to validate it behaves
 **User:** "Audit this code for security vulnerabilities"
 
 **Expected Behavior:**
-- ✅ Load `.opencode/context/core/workflows/review.md`
+- ✅ Load `.agents/context/core/workflows/review.md`
 - ✅ Recognize specialized expertise needed
 - ✅ Delegate to security specialist (if available)
 - ✅ OR perform basic security review with context
@@ -96,7 +96,7 @@ Testing OpenAgent across diverse user types and workflows to validate it behaves
 **User:** "Create a product announcement for our new AI feature"
 
 **Expected Behavior:**
-- ✅ Load `.opencode/context/core/standards/docs.md`
+- ✅ Load `.agents/context/core/standards/docs.md`
 - ✅ Request approval before creating file
 - ✅ Write marketing copy following tone/style
 - ✅ Single file → Execute directly (no delegation)
@@ -129,7 +129,7 @@ Testing OpenAgent across diverse user types and workflows to validate it behaves
 **User:** "Generate a quarterly report with charts"
 
 **Expected Behavior:**
-- ✅ Load `.opencode/context/core/standards/docs.md`
+- ✅ Load `.agents/context/core/standards/docs.md`
 - ✅ Request approval before creating files
 - ✅ Multiple files (report.md, data.json) → might delegate
 - ✅ Follow documentation standards
@@ -146,7 +146,7 @@ Testing OpenAgent across diverse user types and workflows to validate it behaves
 
 **Expected Behavior:**
 - ✅ Read existing pricing.md
-- ✅ Load `.opencode/context/core/standards/docs.md`
+- ✅ Load `.agents/context/core/standards/docs.md`
 - ✅ Show proposed changes
 - ✅ Request approval before editing
 - ✅ Use Edit tool
@@ -179,7 +179,7 @@ Testing OpenAgent across diverse user types and workflows to validate it behaves
 **User:** "Write a blog post about our new feature"
 
 **Expected Behavior:**
-- ✅ Load `.opencode/context/core/standards/docs.md`
+- ✅ Load `.agents/context/core/standards/docs.md`
 - ✅ Request approval before creating file
 - ✅ Follow writing tone/style guidelines
 - ✅ Single file → Direct execution
@@ -195,7 +195,7 @@ Testing OpenAgent across diverse user types and workflows to validate it behaves
 **User:** "Create social posts for our product launch (Twitter, LinkedIn, Instagram)"
 
 **Expected Behavior:**
-- ✅ Load `.opencode/context/core/standards/docs.md`
+- ✅ Load `.agents/context/core/standards/docs.md`
 - ✅ Request approval before creating files
 - ✅ 3 files → Direct execution (< 4 threshold)
 - ✅ OR ask: "Create 3 separate files or one combined file?"
@@ -211,7 +211,7 @@ Testing OpenAgent across diverse user types and workflows to validate it behaves
 **User:** "Document our design system with examples and guidelines"
 
 **Expected Behavior:**
-- ✅ Load `.opencode/context/core/standards/docs.md`
+- ✅ Load `.agents/context/core/standards/docs.md`
 - ✅ Request approval
 - ✅ 4+ files (components, colors, typography, etc.)
 - ✅ Delegate to task-manager OR documentation specialist
@@ -228,7 +228,7 @@ Testing OpenAgent across diverse user types and workflows to validate it behaves
 
 **Expected Behavior:**
 - ✅ Read homepage file
-- ✅ Load `.opencode/context/core/standards/docs.md`
+- ✅ Load `.agents/context/core/standards/docs.md`
 - ✅ Show before/after comparison
 - ✅ Request approval before editing
 
@@ -309,7 +309,7 @@ Testing OpenAgent across diverse user types and workflows to validate it behaves
 **User:** "Create a React component"
 
 **Expected Behavior:**
-- ✅ Try to load `.opencode/context/core/standards/code.md`
+- ✅ Try to load `.agents/context/core/standards/code.md`
 - ✅ IF not found → Proceed with warning OR ask user
 - ✅ Request approval before creating file
 - ✅ Use general React best practices

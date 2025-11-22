@@ -1,6 +1,6 @@
 # OpenAgent Rules Extraction - What We're Actually Testing
 
-This document extracts **testable, enforceable rules** from `.opencode/agent/openagent.md` that we can validate with our evaluation framework.
+This document extracts **testable, enforceable rules** from `.agents/agent/openagent.md` that we can validate with our evaluation framework.
 
 ---
 
@@ -88,11 +88,11 @@ AUTO-STOP if you find yourself executing without context loaded.
 
 **Required Context Files by Task Type (Lines 53-58):**
 ```
-- Code tasks → .opencode/context/core/standards/code.md
-- Docs tasks → .opencode/context/core/standards/docs.md  
-- Tests tasks → .opencode/context/core/standards/tests.md
-- Review tasks → .opencode/context/core/workflows/review.md
-- Delegation → .opencode/context/core/workflows/delegation.md
+- Code tasks → .agents/context/core/standards/code.md
+- Docs tasks → .agents/context/core/standards/docs.md  
+- Tests tasks → .agents/context/core/standards/tests.md
+- Review tasks → .agents/context/core/workflows/review.md
+- Delegation → .agents/context/core/workflows/delegation.md
 ```
 
 **Test Cases:**
